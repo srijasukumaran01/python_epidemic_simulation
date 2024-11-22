@@ -24,7 +24,7 @@ def build_border():
     Creates a Rect border around the Universe
     :return: Rect instance
     """
-    return Rect(5, 5, Screen.WIDTH - 10, Screen.HEIGHT - 100)
+    return Rect(5, 5, Screen.WIDTH - 10, Screen.HEIGHT - 105)
 
 
 class Universe(object):
